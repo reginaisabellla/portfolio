@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,22 +10,22 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <style>
         body {
-            background-color: #f3f5f7; /* purple */
+            background-color: #f3f5f7;
         }
 
         .navbar {
-            background-color: #bcb9e8; /* green */
+            background-color: #bcb9e8;
         }
 
         .header-section {
-            background-color: #fff; /* white */
+            background-color: #fff;
             padding: 50px;
             margin-top: 20px;
             border-radius: 10px;
         }
 
         .portfolio-item {
-            background-color: #fff; /* white */
+            background-color: #fff;
             padding: 20px;
             margin-bottom: 20px;
             border-radius: 10px;
@@ -32,12 +33,13 @@
 
         /* divider Style */
         .divider {
-            border-bottom: 2px solid #bcb9e8; /* green */
+            border-bottom: 2px solid #bcb9e8;
             text-align: center;
             margin: 20px 0;
         }
+
         .divider h3 {
-            background-color: #fff; /* white */
+            background-color: #fff;
             padding: 0 20px;
             font-size: 1.5rem;
         }
@@ -48,6 +50,7 @@
         }
     </style>
 </head>
+
 <body>
 
     <!-- navigation bar -->
@@ -66,6 +69,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Me</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -79,19 +85,20 @@
                     <h2>Regina Agostini</h2>
                     <h5>Digital Media Student</h5>
                     <p>Hello! I am a passionate junior pursuing my B.A. in Digital Media with a Web Track here at the
-                        University of Central Florida. Experience in working with graphic design programs like Figma and Canva as well as web development including; HTML,
+                        University of Central Florida. Experience in working with graphic design programs like Figma and
+                        Canva as well as web development including; HTML,
                         JavaScript, and CSS. I am dedicated to merging creativity with technical expertise to craft
                         compelling online experiences. Eager to apply my skills in a dynamic professional setting that
                         values creativity, strategic thinking, and impactful storytelling to drive engagement and brand
                         growth. Seeking opportunities to contribute to innovative projects and further develop my
-                        expertise in the exciting realm of social media marketing.</p>
+                        expertise in the exciting realm of social media marketing and devloping.</p>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="header-section d-flex justify-content-center align-items-center">
                     <!-- cover image -->
                     <img src="imgs/original-705CCE5C-8312-4FDB-A214-1F88B2AC256D.jpeg" alt="Regina Agostini"
-                        class="img-fluid rounded" style="max-width: 250px;">
+                        class="img-fluid rounded" style="max-width: 275px;">
                 </div>
             </div>
         </div>
@@ -110,7 +117,11 @@
                     <video width="100%" controls>
                         <source src="vids/exercise app.mp4" type="video/mp4">
                     </video>
-                    <p>Description</p>
+                    <p>In this project, the objective was to create an exercise app with multiple screens as well as
+                        navigations through those screens. In the video you can see how the user can navigate from the
+                        Home screen to a repetitive execise or 'Push-Ups' screen. From there, the user can also navigate
+                        to a 'suggested' excerise or the duration exercise screen. This project really made me think
+                        about the best ways to seamlessly connect screens through different buttons! </p>
                 </div>
             </div>
             <div class="col-md-6">
@@ -119,7 +130,11 @@
                     <video width="100%" controls>
                         <source src="vids/quiz app.mp4" type="video/mp4">
                     </video>
-                    <p>Description</p>
+                    <p>In this'Quiz App' project, I was tasked with setting up three different multiple choice
+                        questions, one even having two right answers, and then presenting the user with an answer key at
+                        the end. This project required me to really think how I could smoothly transition from one
+                        question to the next. It also helped me learn how to present users with choices in which they
+                        could actively interact with. </p>
                 </div>
             </div>
             <div class="col-md-6">
@@ -128,7 +143,12 @@
                     <video width="100%" controls>
                         <source src="vids/todo app.mp4" type="video/mp4">
                     </video>
-                    <p>Description</p>
+                    <p>This 'To-Do App' required a set up in which users can check off which tasks they have and haven't
+                        done, as well as the option to add a new task to the list. This project implemented the use of
+                        React Native to make it work. I found this project a bit more difficult as getting the task to
+                        appear completed was a bit of a hurdle for me. In the video you can see the user adding two more
+                        tasks to the list. I was able to learn the ways in which React Native can help in the making in
+                        these types of apps!</p>
                 </div>
             </div>
             <!-- divider for UI mock-ups -->
@@ -139,24 +159,56 @@
                 <div class="portfolio-item">
                     <h3>Exercise App Mock-Up</h3>
                     <img src="imgs/exercise app.jpg" class="img-fluid rounded">
-                    <p>Description</p>
+                    <p>Here we have an exercise app mock-up that I designed. I implemented the design of three different
+                        screens. The first being a recording feature that the user could stop and start at their will.
+                        The second being a duration timer/distance tracker. And lastly, the third screen presenting the
+                        user with a recommended exercise based on their information. </p>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="portfolio-item">
                     <h3>To-Do App Mock-Up</h3>
                     <img src="imgs/todo-app.jpg" class="img-fluid rounded">
-                    <p>Description</p>
+                    <p>In this design, I was tasked with creating a 'To-Do' app. Here I also designed 3 different
+                        screens, a Home, Tasks, and Profile screen. In 'Home', the user is able to add a new task as
+                        well as a description to go along with said task and then a date to complete it by. Moving on to
+                        the 'Tasks' screen, the user is able to see all of the tasks they have or have not completed,
+                        check them off, and even filter by tasks they haven't completed. In the 'Profile' screen, the
+                        user is able to set their profile picture up and input their information. </p>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="portfolio-item">
                     <h3>New Pinterest Mock-Up</h3>
                     <img src="imgs/redesign app.jpg" class="img-fluid rounded">
-                    <p>Description</p>
+                    <p>In this exercise, I was asked to take an existing application and redesign it so that it would
+                        implement features I thought would add to the app. I chose to tweak Pinterest since I find
+                        myself going on the app frequently. I first wanted to spruce up the navigation bar at the bottom
+                        because I thought the one in the app was a bit boring, so I added little touches like the heart
+                        home icon and the big plus button to get the users' attention. Then I added a stories feature at
+                        the top. I thought it would be fun if people could add pinterest pictures to a story just to see
+                        what everyone is looking at and enjoying on the app if they so desire to share. Lastly, I added
+                        a recommended page based on the users' searches.</p>
                 </div>
             </div>
             <!-- add more portfolio items -->
+        </div>
+    </section>
+    <!-- contact me section -->
+    <section id="contact" class="container">
+        <div class="row">
+            <div class="col-md-12 text-center mt-5">
+                <h2>Contact Me</h2>
+                <p>Feel free to reach out to me through LinkedIn or via email.</p>
+                <!-- linkedin and gmail icons -->
+                <div class="footer">
+                    <a href="https://www.linkedin.com/in/regina-agostini-b06251270" ><img src="icons/icons8-linkedin-16.png"
+                            alt="LinkedIn" width="30"></a>
+                            <br>
+                    <img src="icons/icons8-gmail-16.png" alt="Gmail" width="30"><p>reginaisabellla11@gmail.com</p>
+                    <p class="mt-3">© 2024 Regina Agostini</p>
+                </div>
+            </div>
         </div>
     </section>
     <!--jquery file-->
@@ -167,4 +219,5 @@
         crossorigin="anonymous"></script>
 
 </body>
+
 </html>
